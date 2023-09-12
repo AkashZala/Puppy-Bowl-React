@@ -1,6 +1,8 @@
 body {
   color: whitesmoke;
   background-color: rgb(34, 42, 56);
+  margin: 0 2rem 0 2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 a {
@@ -10,7 +12,7 @@ a {
 }
 
 img {
-  width: 90vw;
+  width: 50vw;
 }
 
 #nav {
@@ -18,14 +20,64 @@ img {
   padding: 1rem;
   text-align: center;
   font-size: 2rem;
+  margin: 0 0 2rem 0;
 }
 
 #nav>a {
   padding: .5rem;
+  border-radius: 2rem;
 }
 
 #nav>a:hover {
   background-color: rgb(160, 201, 242);
-  color:rgb(14, 14, 94);
+  color: rgb(14, 14, 94);
   transition: .5s;
+}
+
+.selected {
+  text-decoration: underline;
+}
+
+.puppyList>p {
+  text-decoration: underline;
+}
+
+.puppyList>div>div {
+  padding: 1rem;
+  font-size: larger;
+  width: fit-content;
+}
+
+.puppyList>div>div:hover {
+  text-decoration: underline;
+}
+
+.singlePuppy {
+  text-align: center;
+}
+
+.singlePuppy>a {
+  border: 1px white solid;
+  text-align: left;
+  padding: .5rem;
+  margin: 0;
+  border-radius: .1rem;
+  color: rgb(34, 42, 56);
+  background-color: antiquewhite;
+}
+
+.singlePuppy>button {
+  padding: 1rem;
+  font-weight: bold;
+  color: red;
+  margin: 1rem;
+}
+
+form {
+  padding: 1rem;
+}
+
+form>div {
+  margin: 0 0 1rem 0;
+  padding: 1rem;
 }

@@ -1,5 +1,5 @@
 const Homepage = () => {
-    return(
+    return (
         <div>
             <h1>Welcome to the Puppy Bowl!</h1>
         </div>

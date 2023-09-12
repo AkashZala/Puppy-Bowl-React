@@ -9,12 +9,12 @@ function App() {
 
   return (
     <>
-      <h1>Puppy Bowl React </h1>
+      <h1>Puppy-Bowl-React </h1>
       <Nav />
       <Routes>
-        <Route path='/' element={ <Homepage/> }/>
-        <Route path='/players' element={ <PuppyList/> }/>
-        <Route path='/players/:id' element={ <SinglePuppy/> }/>
+        <Route path='/' element={<Homepage />} />
+        <Route path='/players' element={<PuppyList />} />
+        <Route path='/players/:id' element={<SinglePuppy />} />
       </Routes>
     </>
   )

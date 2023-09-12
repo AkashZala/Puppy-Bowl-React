@@ -1,11 +1,13 @@
-import { Link } from "react-router-dom";
-import PuppyList from "./PuppyList";
+import { Link, useLocation } from "react-router-dom";
 
 const Nav = () => {
-    return(
+    const location = useLocation();
+    const { pathname } = location;
+
+    return (
         <div id="nav">
-            <Link to='/'>Home</Link>
-            <Link to='/players'>Players</Link>
+            <Link to='/' className={pathname === '/' ? 'selected' : ''}>Home</Link>
+            <Link to='/players' className={pathname.includes('/players') ? 'selected' : ''}>Players</Link>
         </div>
     );
 }
