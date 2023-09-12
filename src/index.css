@@ -6,4 +6,26 @@ body {
 a {
   color: whitesmoke;
   margin: 2rem;
+  text-decoration: none;
+}
+
+img {
+  width: 90vw;
+}
+
+#nav {
+  border: 1px whitesmoke solid;
+  padding: 1rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+#nav>a {
+  padding: .5rem;
+}
+
+#nav>a:hover {
+  background-color: rgb(160, 201, 242);
+  color:rgb(14, 14, 94);
+  transition: .5s;
 }
